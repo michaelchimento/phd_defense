@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>CES - Michael Chimento</title>
+		<title>PhD Defense ( omg ) </title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -13,44 +13,241 @@
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 		<style type="text/css">
+			.reveal .slides p {font-size: 35px;}
+			.reveal .slides li {font-size: 35px;}
+			.reveal .slides .citations li {font-size: 20px;}
 			.reveal .slides .title_layout { font-size: 150%; display: flex; align-items: center; justify-content: center;}
-			.reveal .slides .h_layout_top { display: flex; align-items: flex-start; justify-content: center; flex-direction: row;}
-			.reveal .slides .h_layout_center { display: flex; align-items: center; justify-content: center; flex-direction: row;}
+			.reveal .slides .h_layout_top { display: flex; align-items: flex-start; justify-content: center; flex-direction: row; min-height: 500px;}
+			.reveal .slides .h_layout_center { display: flex; align-items: center; justify-content: center; flex-direction: row; align-content: stretch; min-height: 500px;}
+			.reveal .slides .v_layout_center { display: flex; align-items: center; justify-content: center; flex-direction: column; align-content: space-around; }
+			.reveal .slides .layout_flexstart { display: flex; align-items: center; justify-content: flex-start; flex-direction: row;}
+			.reveal .slides .slide_title { margin-top: 100px }
 			.reveal .slides .content_box { display: flex; align-items: flex-start; justify-content: center; flex-wrap: wrap; width: 500px;}
 			.reveal .slides .left_box { display: flex; flex-direction: column; width: 900px; text-align: left;}
 			.reveal .slides .right_box { display: flex; width: 800px; text-align: right; align-items: center; justify-content: flex-end; flex-direction: column;}
 			.reveal .slides .citations { font-size: 50%; color: grey; display: flex; text-align: left; align-items: flex-end; justify-content: flex-end; flex-direction: column;}
+
 			.reveal .slides .gallery_container { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center;}
-			.reveal .slides .gallery_box {display: flex; width: 200px; justify-content: center; margin: 10px; flex-wrap: wrap;}
+			.reveal .slides .gallery_box {display: flex; width: 170px; justify-content: center; margin: 5px; flex-wrap: wrap; border-radius:10px; font-family: "EB Garamond"; font-size: 30px;}
+			.reveal .slides .gallery_box_XL {display: flex; width: 200px; justify-content: center; margin: 10px; flex-wrap: wrap;}
+			.reveal .slides .gallery_box_XXL {display: flex; width: 500px; justify-content: center; margin: 10px; flex-wrap: wrap;}
+
+			.reveal .slides .katex { font-size: 30px;} 
+
+
 		</style>
 	</head>
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-iframe="iframe_greti.html">
+
+				<section class="center" data-background-iframe="iframe_network_large.html">
+
+					<div class="title_layout">
+						<h4 style="color: #EC5F66">The influence of</h4>
+						<h2 style="color: black">social processes and structures</h2>
+						<h4 style="color: #EC5F66">on cultural evolution</h4>
+					</div>
 					
-
-				<div class="title_layout">
-					<h4 style="color: #99C794">The interaction of</h4>
-					<h2 style="color: black"><span style="color: #EC5F66">learning</span> rules and population <span style="color: #EC5F66">turnover</span></h2>
-					<h4 style="color: #99C794">can drive cultural evolution</h4>
-				</div>
+					<p>Michael Chimento</p>
+					<img src="img/MPI_AB_logo.png" width="400"> 
 					
-					<p>Michael Chimento, Lucy M. Aplin</p>
-
-					<img src="img/cluster_logo.png" width="400">
-					<img src="img/MPI_AB_logo.png" width="400">
-
+					<img src="img/cluster_logo.png" width="400"><br>
+					<img src="img/QBEE.png" width="500"> 
 				</section>
 
-				<section>
-					<h2>Research methods</h2>
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Human culture</h2>
+						<img src="img/human_culture.png">
+					
+				</section>
+
+				<section data-chapter-num="0" data-state='removeLine'>
+					<h2 class="slide_title">Animal culture</h2>
+					<div class="gallery_container">
+						<div class="gallery_box_XXL">Moss sponging<img src="img/moss_sponging.jpg"></div>
+						<div class="gallery_box_XXL">Shelling<img src="img/shelling.jpg"></div>
+						<div class="gallery_box_XXL">Bin opening<img src="img/bin_opening.jpg"></div>
+						<div class="gallery_box_XXL">Puzzle boxing<img src="img/outdoor_puzzle1_credit_sonja_wild.jpeg"></div>
+					</div>
+					
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Culture evolves</h2>
+					<p>Cultural behaviors exhibit <b>variation</b>, <b>competition</b>, and <b>inheritance</b>, leading to evolutionary processes.<sup>1</sup></p>
+					<img src="img/culture_evolves.png" height=600px>
+					<small class="citations">
+						<ol>
+							<li><a href="https://books.google.de/books/about/Culture_and_the_Evolutionary_Process.html?id=MBg4oBsCKU8C" target="_blank">Boyd & Richerson 1988</a></li>
+							<li><a href="https://doi.org/10.1525/aa.2001.103.4.992" target="_blank">Henrich 2001</a></li>
+							<li><a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/towards-a-unified-science-of-cultural-evolution/1C5D36A6CCF1CA66A301A6693FEF4442" target="_blank">Mesoudi et al. 2006</a></li>
+							<li><a href="https://doi.org/10.1111/cogs.12144" target="_blank">Tamariz & Kirby 2015</a></li>
+
+						</ol>
+					</small>				
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Distributions of traits evolve</h2>
+					<img src="img/cultural_populations.jpg" width=900px>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1242/jeb.142786" target="_blank">Tchernichovski et al. 2017</a></li>
+						</ol>
+					</small>
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Forms of traits evolve</h2>
+					<img src="img/sasaki2018.png" width=800>
+					<p class="fragment fade-in-then-semi-out">Example: the evolution of flight paths in a transmission chain experiment with homing pigeons.<sup>3</sup></p>
+					<p class="fragment fade-in-then-semi-out">Fits the <b>core criteria</b> of cumulative cultural evolution, where more effective innovations supplant an existing tradition.<sup>2</sup></p>
+				<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1038/ncomms15049" target="_blank">Sasaki et al. 2017</a></li>
+							<li><a href="https://doi.org/10.1098/rspb.2018.0712" target="_blank">Mesoudi & Thornton, 2018</a></li>
+						</ol>
+					</small>	
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Cultural evolution can be cumulative</h2>
+					<img src="img/cultural_lineages.jpg" width=600>
+					<p class="fragment fade-in-then-semi-out">More complex forms of evolution can occur, such as <b>recombination</b> between cultural lineages.<sup>1,2</sup></p>
+						<ol>
+							<li><a href="https://doi.org/10.1098/rspb.2018.0712" target="_blank">Mesoudi & Thornton, 2018</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1518798113" target="_blank">Derex and Boyd, 2016</a></li>
+						</ol>
+					</small>	
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Cognition and culture</h2>
+
+					<div class="h_layout_center">
+						<div class="left_box" style="font-size: 35px;">
+							<p class="fragment fade-in-then-semi-out">Culture is <b>inherited</b> through <b>social learning</b>.<sup>1</sup></p>
+							<p class="fragment fade-in-then-semi-out">To "reproduce", behavior must pass through the <b>bottleneck of transmission</b>, constrained by attention, memory, perceptual biases and so on.<sup>2</sup></p>
+							<p class="fragment fade-in-then-semi-out">Social learning should be <b>selective</b> to be adaptive, leading to <b>social learning strategies</b> that determine when, what and from whom an individual should learn.<sup>1,3,4,5</sup></p>
+							<p class="fragment fade-in-then-semi-out">Culture is <b>maintained</b> by <b>individual learning</b>.<sup>6</sup></p>
+							<p class="fragment fade-in-then-semi-out">Such <b>guided variation</b> via reinforcement learning acts as another evolutionary force.<sup>1</sup></p>
+						</div>
+
+						<div class="right_box"> 
+						<img src="img/thesis_pic.png">
+					</div>
+
+					</div>
+						
+					<small class="citations">
+						<ol>
+
+							<li><a href="https://books.google.de/books/about/Culture_and_the_Evolutionary_Process.html?id=MBg4oBsCKU8C" target="_blank">Boyd & Richerson 1988</a></li>
+							<li><a href="https://doi.org/10.2307/4128416" target="_blank">Kirby et al. 2008</a></li>
+							<li><a href="https://doi.org/10.2307/4128416" target="_blank">Rogers 1988</a></li>
+							<li><a href="https://doi.org/10.1098/rstb.2019.0492" target="_blank">Enquist et al. 2007</a></li>
+							<li><a href="https://doi.org/10.1098/rstb.2019.0492" target="_blank">Kendal et al. 2018</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1518798113" target="_blank">Galef 1995</a></li>
+						</ol>
+					</small>
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Social factors and culture</h2>
+
+					<div class="h_layout_center">
+
+						<div class="left_box">
+							<p class="fragment fade-in-then-semi-out"><b>Social networks</b> are the substrate of culture.<sup>1</sup></p>
+							<p class="fragment fade-in-then-semi-out">Culture is responsive to <b>social structure</b>, e.g. network size, structure and composition.<sup>2,3,4</sup></p>
+							<p class="fragment fade-in-then-semi-out">What about <b>social processes</b>?</p>
+							<p class="fragment fade-in-then-semi-out"><b>Population turnover:</b> the gradual replacement of individuals through <b>immigration/emigration</b> or births/deaths.</p>
+						</div>
+
+						<div class="right_box">
+							<img src="img/network_randomreg.png" height=300px>
+							<img src="img/group_tits.jpg">	
+						</div>
+
+					</div>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1016/j.jtbi.2011.10.025" target="_blank">Whitehead & Lusseau 2012</a></li>
+							<li><a href="https://doi.org/10.2307/4128416" target="_blank">Henrich 2004</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1518798113" target="_blank">Derex et al. 2016</a></li>
+							<li><a href="https://doi.org/10.1098/rstb.2019.0492" target="_blank">Deffner et al. 2021</a></li>
+						</ol>
+					</small>
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">The great tit <i>(Parus major)</i></h2>
+					<div class="h_layout_center">
+
+						<div class="left_box">
+							<p class="fragment fade-in-then-semi-out"><b>Small passerine species</b> (13-20 g.) found across Eurasia in woodlands, suburban and urban habitats.<sup>1</sup></p>
+							<p class="fragment fade-in-then-semi-out">Exhibit <b>fission-fusion</b> social system at different timescales.<sup>1,2,3</sup></p>
+							<p class="fragment fade-in-then-semi-out">Cognition and neuronal function have been under recent positive selection.<sup>4</sup></p>
+							<p class="fragment fade-in-then-semi-out">Innovative<sup>5,6,7</sup>, well known <b>social learners</b>.<sup>8,9,10</sup></p>
+						</div>
+
+						<div class="right_box">
+							<img height=400px src="img/greti_backpack.jpg">
+						<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Perrins 1979</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1621067114" target="_blank">Farine et al. 2014</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1621067114" target="_blank">Farine et al. 2015</a></li>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Laine et al. 2016</a></li>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Cole et al. 2011</a></li>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Morand-Ferron & Quinn 2011</a></li>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Quinn et al. 2016</a></li>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Aplin et al. 2015</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1621067114" target="_blank">Slagsvold 2002</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1621067114" target="_blank">Fayet et al. 2014</a></li>
+							
+						</ol>
+						</small>
+							
+						</div>
+					</div>
+
+					
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Social learning in great tits</h2>
+					<div class="h_layout_center">
+
+						<div class="fragment fade-in-then-semi-out">
+							<video width="1524" height="786" data-autoplay src="img/greti_solving.mp4"></video>
+						</div>
+
+						<div class="fragment fade-in-then-semi-out">
+							<video width="1524" height="786" data-autoplay src="img/greti_diffusion.mp4"></video>
+						</div>
+					</div>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1038/nature13998" target="_blank">Aplin et al. 2015</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.1621067114" target="_blank">Aplin et al. 2017</a></li>
+						</ol>
+					</small>
+				</section>
+
+				<section data-chapter-num="0">
+					<h2 class="slide_title">Research methods</h2>
 
 					
 					<div class="h_layout_top">
 						<span class="fragment fade-in">
 							<div class="content_box">
-								<p class="r-fit-text">Captive diffusion experiments</p>
+								<p class="r-fit-text">Cultural diffusion experiments</p>
 								<img src="img/aviary_exp2_winter.jpeg">
 							</div>
 						</span>
@@ -69,50 +266,31 @@
 							</div>
 						</span>
 					</div>
-					
 				</section>
 
-				<section>
-					<h2>Social factors and culture</h2>
+				<section data-chapter-num="1" data-background-iframe="iframe_network_large.html">
+					<h2 class="slide_title">Thesis chapters</h2><br><br>
+					<ol style="list-style-type: upper-roman;">
+						<li>What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>				
+
+				<section data-chapter-num="1">
+					<h2 class="slide_title">Turnover and adaptive cultural evolution</h2>
 
 					<div class="h_layout_center">
 
 						<div class="left_box">
-							<p class="fragment fade-in">Social networks are the substrate of culture<sup>1</sup></p>
-							<p class="fragment fade-in">Culture is responsive to <b>social structure</b>, e.g. network size and architecture<sup>2,3,4</sup></p>
-							<p class="fragment fade-in">What about <b>social processes</b>, e.g. gradual replacement of individuals?</p>
-						</div>
-
-						<div class="right_box">
-							<img src="img/group_tits.jpg">	
-						</div>
-
-					</div>
-
-					<small class="citations">
-						<ol>
-							<li><a href="https://doi.org/10.1016/j.jtbi.2011.10.025" target="_blank">Whitehead & Lusseau 2012</a></li>
-							<li><a href="https://doi.org/10.1098/rspb.2019.1262" target="_blank">Raviv et al. 2019</a></li>
-							<li><a href="https://doi.org/10.1073/pnas.1518798113" target="_blank">Derex et al. 2016</a></li>
-							<li><a href="https://doi.org/10.1098/rspb.2020.3107" target="_blank">Cantor, Chimento, Smeele et al. 2021</a></li>
-						</ol>
-					</small>
-
-					
-
-				</section>
-
-				<section>
-					<h2>Turnover and adaptive evolution</h2>
-
-					<div class="h_layout_center">
-
-						<div class="left_box">
-							<p class="fragment fade-in">The introduction of naive individuals is a requirement for cultural evolution</p>
-							<p class="fragment fade-in">Turnover can:</p>
+							<p class="fragment fade-in-then-semi-out"><b>Naive learners</b> have been shown to <b>introduce structure and reduce complexity</b> in human and animal experiments.<sup>1,2</sup></p>
+							<p class="fragment fade-in-then-semi-out">In the context of <b>adaptive cultural evolution</b>, turnover can:</p>
 							<ul>
-							    <li class="fragment fade-in">Increase behavioral innovation/noise available for selection<sup>1</sup></li>
-							    <li class="fragment fade-in">Improve sampling of available behavioral space<sup>2,3</sup></li>
+							    <li class="fragment fade-in-then-semi-out">Increase behavioral <b>innovation/noise</b> available for selection<sup>3</sup></li>
+							    <li class="fragment fade-in-then-semi-out"><b>Improve sampling</b> of available behavioral space<sup>4,5</sup></li>
 							</ul>
 						</div>
 
@@ -124,28 +302,42 @@
 
 					<small class="citations">
 						<ol>
-							<li><a href="https://doi.org/10.1038/ncomms15049" target="_blank">Sasaki et al. 2017</a></li>
+							<li><a href="https://doi.org/10.1073/pnas.0707835105" target="_blank">Kirby et al. 2008</a></li>
+							<li><a href="https://www.nature.com/articles/nature07994" target="_blank">Feher et al. 2009</a></li>
+							<li><a href="https://doi.org/10.1038/ncomms15049" target="_blank">Sasaki & Biro 2017</a></li>
 							<li><a href="https://doi.org/10.1038/335719a0" target="_blank">Warner 1988</a></li>
 							<li><a href="https://doi.org/10.1086/285039" target="_blank">Warner 1990</a></li>
 						</ol>
 					</small>	
 				</section>
 
-				<section>
-					<h2>Turnover can drive cultural selection</h2>
+				<section data-chapter-num="1">
+					<h2 class="slide_title">Can turnover drive cultural evolution in a foraging context?</h2>
+					<div class="layout_flexstart">
+						<div class="left_box" style="text-align: right; align-items: flex-end;" width=400px>
+							<p class="fragment fade-in-then-semi-out">18 micro-populations of 6 members each at a given time (N=181)</p>
+							<p class="fragment fade-in-then-semi-out">Tutor trained on inefficient solution</p>
+							<p class="fragment fade-in-then-semi-out">2 birds replaced each week for 4 weeks</p>
+							<img width=500 height=500 src = "img/tutor_exp1.png">
+						</div>
+					<iframe width=1000 height=900 data-src="iframe_aviary.html"></iframe>
+					</div>
+				</section>
 
-					<div class="h_layout_center">
+				<section data-chapter-num="1">
 
-						<div class="left_box">
-							<p class="fragment fade-in">Compared to static populations of tits, turnover populations selected for a more efficient foraging strategy<sup>1</sup></p>
-							<p class="fragment fade-in">Experienced birds were <b>innovating</b>, immigrant birds were <b>adopting</b> the innovation.</p>
-							<p class="fragment fade-in">Conclusion: turnover can be a mechanism for cultural change in populations of behaviorally conservative learners.</p>
+					<h2 class="slide_title">Turnover can drive cultural evolution</h2>
+
+					<div class="v_layout_center" style="align-content: flex-start;">
+
+						<div class="h_layout_top" style="gap: 30px; min-height: 100px">
+						<img width=400px src="img/Ch1_preview.png">	<img width=900px src="img/ch1_results.png">
 						</div>
 
-						<div class="right_box">
-								<img src="img/Ch1_preview.png">	
-								<img src="img/experiment1_results.png">	
-						</div>
+						
+						<p class="fragment fade-in-then-semi-out">Compared to static, turnover populations selected for a more efficient foraging strategy<sup>1</sup></p>
+						<p class="fragment fade-in-then-semi-out">Experienced birds were <b>innovating</b>, immigrant birds were <b>adopting</b> the innovation.</p>
+						<p class="fragment fade-in-then-semi-out">Turnover can be a mechanism for cultural change with support for the hypothesis that <b>naive individuals are better samplers</b>.</p>
 
 					</div>
 
@@ -156,31 +348,60 @@
 					</small>
 				</section>
 
-				<section>
-					<h2>Outstanding questions:</h2>
-							<ul>
-							    <li class="fragment fade-in">What's the role of reinforcement learning in cultural evolution?</li>
-							    <li class="fragment fade-in">How do differences in <b>magnitude</b> and <b>rate</b> of turnover influence culture?</li>
-							</ul>
+				<section class="center" data-chapter-num="2" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li>How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
 				</section>
 
-				<section>
-					<h2>Reinforcement learning rules influence diffusion dynamics</h2>
+				<section data-chapter-num="2">
+					<h2 class="slide_title">Production rules influence diffusion dynamics</h2>
 
-					<div class="h_layout_center">
+					<div class="h_layout_top">
 
 						<div class="left_box">
-							<p class="fragment fade-in">Developed an ABM that combined sub-models of <b>acquisition</b> and <b>production</b>.<sup>1</sup></p>
-							<p class="fragment fade-in">Simulated diffusion of novel behavior that competed against an established tradition.</p>
-							<p class="fragment fade-in">Conducted a sensitivity analysis across many different combinations of RL rules for production.</p>
-							<p class="fragment fade-in">Assessed performance of inferential NBDA and EWA analyses when acquisition is conditioned on production.</p>
+							<p class="fragment fade-in-then-semi-out">Agent based model connected sub-models of <b>acquisition</b><sup>1</sup> and <b>production</b>.<sup>2</sup></p>
+							<p class="fragment fade-in-then-semi-out">Simulated <b>diffusion of novel behavior</b> that competed against an established tradition.</p>
+							<p class="fragment fade-in-then-semi-out">Conducted a <b>sensitivity analysis</b> across many different combinations of reinforcement learning rules, transmission parameters and network architectures.</p>
 						</div>
 
 						<div class="right_box">
-							<video data-autoplay src="img/ewa_nbda_fixed.mp4"></video>
+							<img src="img/Ch2_preview.png" width=500px>
+							<img src="img/Fig_1_schematic.png" width=500px>
 						</div>
 
 					</div>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1098/rspb.2022.1001" target="_blank">Hoppitt & Laland, 2013</a></li>
+							<li><a href="https://doi.org/10.1098/rspb.2022.1001" target="_blank">McElreath, 2008</a></li>
+						</ol>
+					</small>
+				</section>
+
+				
+
+				<section data-chapter-num="2">
+					<h2 class="slide_title">Production rules influence diffusion dynamics</h2>
+
+					<video src="img/ch2_sim.mp4" height=600px></video>
+				</section>
+
+				<section data-chapter-num="2">
+					<h2 class="slide_title">Production rules influence diffusion dynamics</h2>
+
+					<div class="h_layout_center" style="align-items: flex-end;">
+						<img height=400px src="img/Fig_3_sigma.png"><img style="margin: 0px; padding-left: 70px;" height=350px src="img/ewa_nbda_divergence.png">	
+					</div>
+
+					<p class="fragment fade-in-then-semi-out">Production rules impacted <b>diffusion rate</b>, and <b>divergences</b> between acquisition and production.</p>
+					<p class="fragment fade-in-then-semi-out">Highlights importance of distinguishing <b>social transmission</b> and <b>social influence</b>, as both have been called social learning.</p>
 
 					<small class="citations">
 						<ol>
@@ -189,39 +410,26 @@
 					</small>
 				</section>
 
-				<section>
-					<h2>Reinforcement learning rules influence diffusion dynamics</h2>
+				<section class="center" data-chapter-num="3" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li>How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>	
+
+				<section data-chapter-num="3">
+					<h2 class="slide_title">What mechanisms link turnover to cultural evolution?</h2>
 
 					<div class="h_layout_center">
 
 						<div class="left_box">
-							<p class="fragment fade-in">Different rules for production impacted diffusion rate, as well as divergences between acquisition and production.</p>
-							<p class="fragment fade-in">High levels of divergence made it more difficult to infer transmission mechanisms (NBDA).</p>
-							<p class="fragment fade-in">Heterogeneous knowledge states made it more difficult to infer learning rules (EWA).</p>
-						</div>
-
-						<div class="right_box">
-								<img src="img/ewa_nbda_divergence.png">		
-						</div>
-
-					</div>
-
-					<small class="citations">
-						<ol>
-							<li><a href="https://doi.org/10.1098/rspb.2022.1001" target="_blank">Chimento et al. 2022</a></li>
-						</ol>
-					</small>
-				</section>
-
-				<section>
-					<h2>What mechanisms link turnover to cultural evolution?</h2>
-
-					<div class="h_layout_center">
-
-						<div class="left_box">
-							<p class="fragment fade-in">Extended this model to include social dynamics: turnover tempo + magnitude.</p>
-							<p class="fragment fade-in">Residents began with knowlege of low payoff tradition, but a higher payoff alternative could be innovated.</p>
-							<p class="fragment fade-in">Compared behavioral frequencies and knowledge states to static populations.</p>
+							<p class="fragment fade-in-then-semi-out">Extended this model to include <b>social dynamics</b>: turnover tempo + magnitude.</p>
+							<p class="fragment fade-in-then-semi-out">Residents began with knowlege of low payoff tradition, but a higher payoff alternative could be innovated.</p>
+							<p class="fragment fade-in-then-semi-out"><b>Compared</b> behavioral frequencies and knowledge states to <b>static populations</b>.</p>
 						</div>
 
 						<div class="right_box">
@@ -231,21 +439,21 @@
 					</div>
 				</section>
 
-				<section>
+				<section data-chapter-num="3">
 
-					<section>
-						<h2>Effect of turnover regimes on relative efficiency</h2>
+					<section data-chapter-num="3">
+						<h2 class="slide_title">Effect of turnover regimes on relative efficiency</h2>
 
 						<div class="h_layout_center">
 
 							<div class="left_box">
-								<p class="fragment fade-in">Each cell is colored by relative effiency compared to static populations (white).</p>
-								<p class="fragment fade-in">We found neutral, optimal and suboptimal regimes compared to static populations.</p>
-								<p class="fragment fade-in">The effect of regime depended on network size, structure, behavioral transmissibility, and learning rules.</p>
+								<p class="fragment fade-in-then-semi-out">Each cell is colored by <b>relative effiency</b> compared to static populations (white).</p>
+								<p class="fragment fade-in-then-semi-out">We found <b>neutral, optimal and suboptimal regimes</b> compared to static populations.</p>
+								<p class="fragment fade-in-then-semi-out">The effect of regime depended on network size, structure, behavioral transmissibility, and learning rules.</p>
 							</div>
 
 							<div class="right_box">
-								<img data-src="img/turnover_regimes_reference.png">	
+								<img  width=500px data-src="img/turnover_regimes_reference.png">	
 							</div>
 
 						</div>
@@ -262,16 +470,15 @@
 					</section>
 				</section>
 
-				<section>
-					<section>
-						<h2>Information loss links turnover to cultural evolution</h2>
+				<section data-chapter-num="3">
+					<section data-chapter-num="3">
+						<h2 class="slide_title">Information loss links turnover to cultural evolution</h2>
 
 						<div class="h_layout_center">
 
 							<div class="left_box">
-								<p class="fragment fade-in">Polymorphic agents declined as regimes increased in intensity.</p>
+								<p class="fragment fade-in"><b>Polymorphic agents declined</b> as regimes increased in intensity.</p>
 								<p class="fragment fade-in">Optimal regimes contained highest levels of monomorphic agents holding the high payoff behavior.</p>
-								<p class="fragment fade-in">Agents held exaggerated expectations about both behaviors.</p>
 							</div>
 
 							<div class="right_box">
@@ -290,34 +497,321 @@
 					<section>
 						<img height=1000 data-src="img/Fig_mechanisms.png">
 					</section>
-
 				</section>
 
-				<section>
-					<h2>Take home:</h2>
-					<p class="fragment fade-in-then-semi-out">Experimental + theoretical support for the hypothesis that <b>naive individuals</b> can drive adaptive cultural evolution simply by being <b>better samplers</b>.</p>
-					<p class="fragment fade-in-then-semi-out">The effects of turnover depends on other <b>features of the network and learners</b>.</p>
-					<p class="fragment fade-in-then-semi-out">Turnover is a double edged sword: information loss can also lead to <b>extirpation</b>.</p>
-					<p class="fragment fade-in-then-semi-out"><b>Traps</b> at longer time-scales: repertoire best fit to previous enviromental state.</p>
-					<p class="fragment fade-in-then-semi-out">
-						<span style="color: rgb(215, 0, 0);">S</span><span style="color: rgb(215, 102, 0);">p</span><span style="color: rgb(215, 205, 0);">e</span><span style="color: rgb(122, 215, 0);">c</span><span style="color: rgb(19, 215, 0);">u</span><span style="color: rgb(0, 215, 84);">l</span><span style="color: rgb(0, 215, 187);">a</span><span style="color: rgb(0, 140, 215);">t</span><span style="color: rgb(0, 37, 215);">i</span><span style="color: rgb(66, 0, 215);">o</span><span style="color: rgb(169, 0, 215);">n</span>: fission-fusion predicted to evolve in <b>white-noise</b> environment<sup>1</sup>, while turnover is perhaps most beneficial in <b>red-noise</b> environment. Pressure for evolution of weak turnover in red noise environments in socially learning species?
-					</p>
-					
+				
+
+				<section class="center" data-chapter-num="4" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li>What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>	
+
+				<section data-chapter-num="4">
+					<h2 class="slide_title">Experimental design: spatial variability</h2>
+					<div class="h_layout_center">
+						<img height=400 src = "img/ch4_diagram1.png">
+						
+					</div>
+					<p class="fragment fade-in-then-semi-out">Tits flexibly change preferences in response to <b>temporal variation</b>.<sup>1</sup> What about <b>spatial variation</b>?</p>
+					<p class="fragment fade-in-then-semi-out">Simulated an <b>immigration event</b> by switching 2 birds between pairs of populations with conflicting traditions (N= 17 replicate populations; 136 birds).</p>
+					<p class="fragment fade-in-then-semi-out"><b>Environmental cues</b> were either symmetric or asymmetric between populations.</p>
 
 					<small class="citations">
-							<ol>
-								<li><a href=" https://doi.org/10.1111/j.1600-0706.2011.19685.x" target="_blank">Sueur et al. (2011)</a></li>
-							</ol>
+						<ol>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Aplin et al. 2017</a></li>
+						</ol>
 					</small>
+				</section>
+
+				<section data-chapter-num="4">
+					<h2 class="slide_title">Experimental design: spatial variability</h2>
+					<div class="h_layout_center">
+						<img height=500 src = "img/Ch4_diagram2.png">
+					</div>
+					<p class="fragment fade-in-then-semi-out">Puzzle boxes could give <b>two possible types of rewards</b>.</p>
+						<p class="fragment fade-in-then-semi-out"><b>Symmetric payoff condition</b>: both solutions obtained mealworms.</p>
+						<p class="fragment fade-in-then-semi-out"><b>Asymmetric payoff condition</b>: prior to immigration the seeded tradition obtained buffalo worms, while the other side obtained sunflower seeds. Post-immigration the immigrant side obtained buffalo worms, reside side obtained mealworms.</p>
+				</section>
+
+				<section data-chapter-num="4">
+					<h2 class="slide_title">Predictions</h2>
+
+					<div class="h_layout_center">
+						
+						<div style="background-image: url(/img/Ch4_Fig1.png); background-size: contain; width: 600px; height: 600px; background-repeat:no-repeat;"></div>
+
+					</div>
+					<p>Immigrants most likely to adopt the resident solution when they <b>enter a novel environment</b>, and when the resident side offers a <b>greater reward</b></p>
+				</section>
+
+					<section data-chapter-num="4">
+					<h2 class="slide_title">Environmental cues can trigger social learning strategies</h2>
+					<div class="h_layout_center">
+
+						<div class="left_box">
+							<p class="fragment fade-in-then-semi-out">The proportion of immigrants adopting the resident solution matched our predictions.</b></p>
+							<p class="fragment fade-in-then-semi-out">Immigration into a novel environment with asymmetric payoffs <b>increased reliance on social learning</b> and <b>payoff biased learning</b>.</p>
+							<p class="fragment fade-in-then-semi-out">Complements recent work showing that humans increase reliance on social information after immigration.<sup>1</sup></p>
+						</div>
+
+						<div class="right_box" style="width: 1400px">
+								<img src="img/Ch4_Fig2.png">	
+						</div>
+
+					</div>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Deffner et al. 2020</a></li>
+						</ol>
+					</small>
+				</section>				
+
+				<section data-chapter-num="5" class="center" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li>How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>
+
+				<section data-chapter-num="5">
+					<h2 class="slide_title">Evolution through recombination</h2>
+					<img src="img/cultural_lineages.jpg" height=500>
+					<p class="fragment fade-in-then-semi-out"><b>Partialy connected networks</b> shown to be beneficial for the evolution of lineages & their recombination.<sup>1</sup></p>
+					<p class="fragment fade-in-then-semi-out"><b>Multi-level human networks</b> hypothesized to be specially adapted to cultural evolution, yet null model was a complete network.<sup>2</sup></p>
+				<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1098/rspb.2018.0712" target="_blank">Derex & Boyd, 2016</a></li>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Migliano et al. 2020</a></li>
+						</ol>
+					</small>	
+				</section>
+
+				<section data-chapter-num="5">
+					<h2 class="slide_title">The effect of network architecture on cultural recombination</h2>
+
+					<div class="h_layout_center">
+
+						<div class="left_box">
+							
+							<p class="fragment fade-in-then-semi-out">We modeled recombination in many <b>different partially connected architectures</b> while controlling for key network metrics.<sup>1</sup></p>
+							<p class="fragment fade-in-then-semi-out">Little effect of architecture. Strong effect of <b>size, transmission mechanism.</b></p>
+						</div>
+
+						<div class="right_box">
+								<img src="img/Ch5_preview.png">	
+								<img height=500 src="img/Ch5_Fig1.jpg">	
+						</div>
+
+					</div>
+
+					<small class="citations">
+						<ol>
+							
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Cantor, Chimento, Smeele et al. 2020</a></li>
+						</ol>
+					</small>
+				</section>
+
+				<section data-chapter-num="6" class="center" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li>How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li style="color: gray;">What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>
+
+				<section data-chapter-num="6">
+					<h2 class="slide_title">Cultural recombination in wild birds</h2>
+
+					<div class="h_layout_center">
+
+						<div class="left_box">
+							<p class="fragment fade-in-then-semi-out">How can <b>recombinatorial culture</b> arise and persist in great tits?</p>
+							<p class="fragment fade-in-then-semi-out">Wild diffusion experiment using a <b>two-action task</b> over multiple field seasons (N=5 replicate sub-populations; 414 learners).<sup>1</sup></p>
+							<ul class="fragment fade-in-then-semi-out">
+								<li>Slide for 3 years.<sup>2,3</sup></li>
+								<li>Dial then diffused for 4 weeks.</li>
+								<li>Dial + slide (scaffolded) for 3 weeks.</li>
+								<li>Dial + slide (unscaffolded) the following winter</li>
+							</ul>
+						</div>
+
+						<div class="right_box">
+								<img src="img/Ch6_preview.png">	
+								<img src="img/Ch6_Fig1.jpg">
+						</div>
+
+					</div>
+
+					<small class="citations">
+						<ol>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Wild & Chimento et al. 2021</a></li>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Aplin et al. 2015</a></li>
+							<li><a href="https://doi.org/10.1016/j.cub.2021.03.057" target="_blank">Aplin et al. 2017</a></li>
+						</ol>
+					</small>
+				</section>
+
+
+				<section data-chapter-num="6">
+
+				<section data-chapter-num="6">
+					<h2 class="slide_title">Cultural recombination in wild birds</h2>
+					<img height=500px src="img/Ch6_networks.png">
+							<p class="fragment fade-in-then-semi-out">Tits <b>socially learn components</b> and <b>asocially reconstruct</b> two-action solution.</p>
+							<p class="fragment fade-in-then-semi-out">Without <b>scaffolding</b>, the complex behavior would likely go extinct after several generations.</p>
+							<p class="fragment fade-in-then-semi-out"><b>Traditions were constrained</b> by the socially learned individual components.</p>
+				</section>
+				<section data-chapter-num="6">
+					<h2 class="slide_title">Cultural recombination in wild birds</h2>
+					<img height=500px src="img/Ch6_Fig5.jpg">
+							<p><b>Traditions were constrained</b> by the socially learned individual components.</p>
+				</section>
 
 				</section>
 
+				<section data-chapter-num="7" class="center" data-background-iframe="iframe_network_large.html">
+					<ol style="list-style-type: upper-roman;">
+						<li style="color: gray;">What's the effect of <b>turnover</b> on a cultural trait in birds?</li>
+						<li style="color: gray;">How does <b>reinforcement learning</b> influence cultural diffusions?</li>
+						<li style="color: gray;">How does <b>variation in turnover</b> influence cultural evolution?</li>
+						<li style="color: gray;">What if <b>immigrants are already knowledgable</b> about the behavior?</li><br>
+						<li style="color: gray;">How does <b>social network architecture</b> impact cultural evolution?</li>
+						<li style="color: gray;">How does <b>complex culture</b> evolve in wild populations of birds?</li>
+						<li>What is the relationship between <b>efficiency</b> and cultural evolution?</li>
+				</section>
+
+				<section data-chapter-num="7">
+					<h2 class="slide_title">Efficiency and CCE</h2>
+					<div class="h_layout_center" style="align-items: flex-start; justify-content: flex-start;">
+
+						<div class="left_box">
+							<p class="fragment fade-in-then-semi-out" style="margin: 10px;">Efficiency defined from the perspective of the <b>behavior</b> or the <b>organism</b>.</p>
+							<p class="fragment fade-in-then-semi-out" style="margin: 0px; padding: 0px">$$E \propto \frac{\sum{\pi}}{C_A + \sum{C_P}}$$</p>
+							<p class="fragment fade-in-then-semi-out" style="margin: 10px;">Reviewed <b>environmental, social and individual constraints</b> on culture.</p>
+							<p class="fragment fade-in-then-semi-out" style="margin: 10px;">Argued efficiency is critical for CCE in light of these constraints.</p>
+							
+							<img height = 300px width = 600px src="img/Ch7_Fig1.png">
+							
+						</div>
+
+						<div class="right_box">
+								<img src="img/Ch7_preview.png">
+								<img height=600 src="img/table1_efficiency.png">	
+						</div>
+
+					</div>
+				</section>
+
+				
+				<section data-chapter-num="8" data-background-iframe="iframe_network_large.html">
+					<h2 class="slide_title">General discussion</h2><br><br><br>
+					<ol style="list-style-type: upper-roman;">
+						<li>Social processes</li>
+						<li>Social structure</li>
+						<li>Acquisition versus production</li>
+						<li>Information caching</li>
+				</section>
+
+				<section data-chapter-num="8">
+					<h2 class="slide_title">I) Social processes</h2>
+					 <div class="fragment fade-in" id="themebox">
+					 	<div>
+					 		<div class="chapter_inert" style="color: #cb4b16; opacity: 1;">Chapter 1<img width=70px style="margin: 0px 0px;" src="img/logo_chpt1.png"></div>
+							<div class="chapter_inert" style="color: #d33682; opacity: 1;">Chapter 3<img width=70px style="margin: 0px 0px;" src="img/logo_chpt3.png"></div>
+					 	</div>
+	        			
+						<p style="text-align: left;">The <b>introduction of naive learners</b> can shape culture, highlighting importance of <b>guided variation</b> for CE, rather than transmission biases or attractors.</p> 
+						<p class="fragment fade-in" style="text-align: left;">Population composition, determined by social processes, is important to predict effects of guided variation.</p>
+	        		</div>
+
+	        		<div class="fragment fade-in" id="themebox">
+	        			<div>
+		        			<div class="chapter_inert" style="color: #cb4b16; opacity: 1;">Chapter 1<img width=70px style="margin: 0px 0px;" src="img/logo_chpt1.png"></div>
+							<div class="chapter_inert" style="color: #d33682; opacity: 1;">Chapter 3<img width=70px style="margin: 0px 0px;" src="img/logo_chpt3.png"></div>
+							<div class="chapter_inert" style="color: #fd5ff0; opacity: 1;">Chapter 4<img width=70px style="margin: 0px 0px;" src="img/logo_chpt4.png"></div>
+						</div>
+						<p style="text-align: left;">Contrasting influences on <b>cultural diversity</b>.</p>
+						<p class="fragment fade-in" style="text-align: left;">Co-evolution of <b>fission-fusion sociality</b> and social learning.</p>
+	        		</div>
+					
+				</section>
+
+				<section class="center" data-chapter-num="8">
+
+					<div class="h_layout_center">
+						
+						<div style="background-image: url(/img/habitat_gradient.png); background-size: contain; width: 1200px; height: 900px; background-repeat:no-repeat;"></div>
+
+					</div>
+				</section>
+
+				<section data-chapter-num="8">
+					<h2 class="slide_title">II) Social structure</h2>
+					<div class="fragment fade-in" id="themebox">
+	        			<div class="chapter_inert" style="color: #dc322f; opacity: 1; align-self: flex-start;">Chapter 2<img width=70px style="margin: 0px 0px;" src="img/logo_chpt2.png"></div>
+						<p style="text-align: left;">Network structure influences <b>divergence</b> between acquisition and production.</p>    
+					</div>
+
+					<div class="fragment fade-in" id="themebox">
+	        			<div class="chapter_inert" style="color: #d33682; opacity: 1;" >Chapter 3<img width=70px style="margin: 0px 0px;" src="img/logo_chpt3.png"></div>
+						<p style="text-align: left; width: 100%;">Network structure <b>modulates the effect of social processes</b> on culture.</p>	       
+					</div>
+
+					<div class="fragment fade-in" id="themebox">
+	        			<div class="chapter_inert" style="color: #6c71c4; opacity: 1;">Chapter 5<img width=70px style="margin: 0px 0px;" src="img/logo_chpt5.png"></div>
+	        			<p style="text-align: left; width: 100%;">Even <b>lattice networks</b> allow for the evolution of cultural lineages.</p>	 
+						<p class="fragment fade-in" style="text-align: left;">Social structure can facilitate recombination, yet <b>hinder diffusion</b> of those innovations.</p>	       
+					</div>
+				</section>
+
+				<section data-chapter-num="8">
+					<h2 class="slide_title">III) Acquisition versus production</h2>
+					<div class="fragment fade-in" id="themebox">
+						<div>
+		        			<div class="chapter_inert" style="color: #dc322f; opacity: 1;">Chapter 2<img width=70px style="margin: 0px 0px;" src="img/logo_chpt2.png"></div>
+		        			<div class="chapter_inert" style="color: #dc322f; opacity: 1;">Chapter 4<img width=70px style="margin: 0px 0px;" src="img/logo_chpt4.png"></div>
+	        			</div>
+	        			<p style="text-align: left;width: 100%;">Social learning has been used to describe both social transmission (acquisition) and social influence (on production)</b>.</p>
+						<p class="fragment fade-in" style="text-align: left;">Discussions of <b>social learning strategies</b> have treated acquisition and production biases interchangeably.</p>
+						<p class="fragment fade-in" style="text-align: left;">They should be mathematically modeled as <b>separate phenomena</b> as there may be <b>different biases</b> operating on either (e.g. conformist transmission in Aplin et al. 2015, payoff-biased social influence in Ch. 4)</p>  
+					</div>
+				</section>
+
+				<section data-chapter-num="8">
+					<h2 class="slide_title">IV) Efficiency and information caching</h2>
+					<div class="fragment fade-in" id="themebox">
+						<div>
+						<div class="chapter_inert" style="color: #268bd2; opacity: 1;">Chapter 6<img width=70px style="margin: 0px 0px;" src="img/logo_chpt6.png"></div>
+	        			<div class="chapter_inert" style="color: #2aa198; opacity: 1;">Chapter 7<img width=70px style="margin: 0px 0px;" src="img/logo_chpt7.png"></div>
+	        		</div>
+						<p style="text-align: left;">Non-human animals have an especially <b>limited budget of attention and energy</b> to invest in costs of acquiring novel behavior.</p>
+						<p class="fragment fade-in" style="text-align: left;">Behaviors must be <b>exceptionally learnable and/or adaptive</b> to persist through the tight bottleneck of transmission.</p>
+						<p class="fragment fade-in" style="text-align: left;"><b>Information caching</b> (storage of information beyond the behavioral production) is another critical component that further explains why CCE is not widely observed.</p>
+						<p class="fragment fade-in" style="text-align: left;"><b>Dense social networks</b> might approximate information caching.</p>
+					</div>
+				</section>
+
 				<section>
-					<h2>Thank you</h2>
+					<h2 class="slide_title">Thank you</h2>
 					<div class="gallery_container">
 						<div class="gallery_box">
 							<img src="img/people_gallery/lucy_aplin.png">
-							<small><i>Lucy Aplin</i></small>
+							<small><i>Dr. Lucy Aplin</i></small>
 						</div>
 						<div class="gallery_box">
 							<img src="img/people_gallery/gustavo_alarcon-nieto.jpg">
@@ -325,27 +819,72 @@
 						</div>
 						<div class="gallery_box">
 							<img src="img/people_gallery/brendan_barrett.jpg">
-							<small><i>Brendan Barrett</i></small>
+							<small><i>Dr. Brendan Barrett</i></small>
 						</div>
 						<div class="gallery_box">
 							<img src="img/people_gallery/anne_kandler.jpg">
-							<small><i>Anne Kandler</i></small>
+							<small><i>Dr. Anne Kandler</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/mauricio_cantor.png">
+							<small><i>Dr. Mauricio Cantor</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/simeon_smeele.jpg">
+							<small><i>Simeon Smeele</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/damien_farine.jpg">
+							<small><i>Dr. Damien Farine</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/sonja_wild.jpg">
+							<small><i>Dr. Sonja Wild</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/thibaud_gruber.jpg">
+							<small><i>Dr. Thibaud Gruber</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/dora_biro.jpg">
+							<small><i>Dr. Dora Biro</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/stephen_tyndel.jpg">
+							<small><i>Stephen Tyndel</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/mina_ogino.jpg">
+							<small><i>Mina Ogino</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/salamatu_abdu.jpg">
+							<small><i>Salamatu Abdu</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/julia_penndorf.jpg">
+							<small><i>Julia Penndorf</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/hanja_brandl.jpg">
+							<small><i>Dr. Hanja Brandl</i></small>
+						</div>
+						<div class="gallery_box">
+							<img src="img/people_gallery/elham_nourani.jpg">
+							<small><i>Dr. Elham Nourani</i></small>
 						</div>
 					</div>
 
 					<div class="title_layout">
-						<img src="img/cluster_logo.png" width="400">
+						<img src="img/QBEE.png" width="400"> 
 						<img src="img/MPI_AB_logo.png" width="400">
+						<img src="img/cluster_logo.png" width="400">
 						
 					</div>
-						<img height=50 src="img/people_gallery/twitter.png"><br><small><a href=" https://twitter.com/evogom" target="_blank">@evogom</a></small>
-						
+					<div style="display: flex; justify-content: center; align-items: center">
+						<img height=50 src="img/people_gallery/twitter.png" height=100 width=50><small><a href=" https://twitter.com/evogom" target="_blank">@evogom</a></small></div>
 					
 				</section>
-
-				
-
-
 
 			</div>
 		</div>
@@ -355,6 +894,12 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+		<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+
+
   		
 		<script>
 			// More info about initialization & config:
@@ -362,10 +907,132 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				center: false,
+				keyboard: {
+				    32: () => {
+				      var currentSlide = Reveal.getCurrentSlide();
+				      var currentVideo = currentSlide.getElementsByTagName("video")[0];
+				      if (currentVideo) {
+				        if (currentVideo.paused == true) currentVideo.play();
+				        else currentVideo.pause();
+				      }
+				      else {
+				        Reveal.next();
+				      }
+				    }
+				  },
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealHighlight ]
+				plugins: [ RevealHighlight, RevealMath.KaTeX, RevealNotes ]
 			});
 		</script>
+
+		<style type="text/css">
+		    /* 1. Style header/footer <div> so they are positioned as desired. */
+		    #chapterbox {
+		         display: flex; align-items: flex-start; justify-content: center; padding: 5px;
+		    }
+
+		    #themebox {
+		         display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; padding: 7px; flex-direction: column; background-color: #eee8d5; border-radius: 5px; margin: 5px;
+		    }
+
+		    .chapter { display: inline-flex; padding: 7px; margin: 2px; justify-content: flex-start; align-items: center; align-content: flex-start; background-color:#073642; border-radius:10px; font-family: "EB Garamond"; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 15.4px; flex-direction: column; gap: 10px}
+
+		    .chapter_inert { display: inline-flex; padding: 7px; margin: 2px; justify-content: flex-start; align-items: center; align-content: flex-start; background-color:#073642; border-radius:10px; font-family: "EB Garamond"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 15.4px; flex-direction: column; gap: 15px}
+
+		    .reveal .slides .chapter .logo {}
+		</style>
+
+		<div id="hidden" style="display:none;">
+	    <div id="header">
+	        <div id="chapterbox">
+	        	<a href="#/0"><div class="chapter" id="intro" style="color: #b58900; opacity: .25;">Introduction</div></a>
+	        	<a href="#/12"><div class="chapter" id="chpt1" style="color: #cb4b16; opacity: .25;">Chapter 1<img class ="logo" id="chpt1_logo" width=70px style="margin: 0px 0px;" src="img/logo_chpt1.png"></div></a>
+				<a href="#/16"><div class="chapter" id="chpt2" style="color: #dc322f; opacity: .25;">Chapter 2<img class ="logo" id="chpt2_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt2.png"></div></a>
+				<a href="#/19"><div class="chapter" id="chpt3" style="color: #d33682; opacity: .25;">Chapter 3<img class ="logo" id="chpt3_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt3.png"></div></a>
+				<a href="#/23"><div class="chapter" id="chpt4" style="color: #fd5ff0; opacity: .25;">Chapter 4<img class ="logo" id="chpt4_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt4.png"></div></a>
+				<a href="#/28"><div class="chapter" id="chpt5" style="color: #6c71c4; opacity: .25;">Chapter 5<img class ="logo" id="chpt5_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt5.png"></div></a>
+				<a href="#/32"><div class="chapter" id="chpt6" style="color: #268bd2; opacity: .25;">Chapter 6<img class ="logo" id="chpt6_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt6.png"></div></a>
+				<a href="#/35"><div class="chapter" id="chpt7" style="color: #2aa198; opacity: .25;">Chapter 7<img class ="logo" id="chpt7_logo" width=70px style="margin: 0px 0px;"  src="img/logo_chpt7.png"></div></a>
+				<a href="#/37"><div class="chapter" id="themes" style="color: #859900; opacity: .25;">General discussion</div></a>
+	        </div>
+	    </div>
+	</div>
+
+	<script type="text/javascript">
+
+		let header = $('#header').html();
+
+		let flag = false;
+
+		let chapter_num=0
+		
+
+
+		Reveal.on( 'slidechanged', event => {
+			let state = Reveal.getState();
+			console.log(state.indexh)
+			if (state.indexh > 0 & flag==false){
+		        $('div.reveal').append(header);
+		        
+		        flag = true;
+			}
+
+			$(".chapter").css({"opacity":".25"});
+
+			$(".logo").css({"display":"none"});
+
+			x = Reveal.getCurrentSlide()
+			chapter_num = $(x).attr('data-chapter-num')
+
+			switch(chapter_num) {
+			  case "0":
+			  	$("#intro").css({"opacity":"1"});
+			    break;
+			  case "1":
+			    $("#chpt1").css({"opacity":"1"});
+			    $("#chpt1_logo").css({"display":"flex"})
+			    break;
+			  case "2":
+			    $("#chpt2").css({"opacity":"1"});
+			    $("#chpt2_logo").css({"display":"flex"})
+			    break;
+			  case "3":
+			    $("#chpt3").css({"opacity":"1"});
+			    $("#chpt3_logo").css({"display":"flex"})
+			    break;
+			  case "4":
+			    $("#chpt4").css({"opacity":"1"});
+			    $("#chpt4_logo").css({"display":"flex"})
+			    break;
+			  case "5":
+			    $("#chpt5").css({"opacity":"1"});
+			    $("#chpt5_logo").css({"display":"flex"})
+			    break;
+			  case "6":
+			    $("#chpt6").css({"opacity":"1"});
+			    $("#chpt6_logo").css({"display":"flex"})
+			    break;
+			  case "7":
+			    $("#chpt7").css({"opacity":"1"});
+			    $("#chpt7_logo").css({"display":"flex"})
+			    break;
+			  case "8":
+			    $("#themes").css({"opacity":"1"});
+			    $("#chpt1_logo").css({"display":"flex"})
+			    $("#chpt2_logo").css({"display":"flex"})
+			    $("#chpt3_logo").css({"display":"flex"})
+			    $("#chpt4_logo").css({"display":"flex"})
+			    $("#chpt5_logo").css({"display":"flex"})
+			    $("#chpt6_logo").css({"display":"flex"})
+			    $("#chpt7_logo").css({"display":"flex"})
+			    break;
+			  default:
+			    break;
+			}
+
+		});
+	    
+	</script>
 	</body>
 </html>

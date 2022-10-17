@@ -7,7 +7,6 @@ class Agent{
     this.m = this.r * 0.1;
     this.color = 0;
     this.neighbor_vector = [];
-    print(this.x, this.y);
 
   }
 
@@ -53,7 +52,6 @@ class Agent{
 
 function seed() {
   let focal = random(0,num_agents);
-  print(agents[focal]);
 }
 
 num_agents = 100;
